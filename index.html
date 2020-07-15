@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>お問い合わせ</title>
+</head>
+<body>
+  <h1 id = "h1">お問い合わせ</h1>
+    <form  action="index.html" method="post">
+      <table class="table_form">
+        <tr>
+          <th>お名前</th>
+          <td><input type="text" name="name" class="box"></td>
+        </tr>
+        <tr>
+          <th>連絡先</th>
+          <td><input type="text" name="address" class="box" placeholder="電話番号"></td>
+        </tr>
+        <tr>
+          <th></th>
+          <td><input type="text" name="address" class="box" placeholder="メールアドレス"></td>
+        </tr>
+        <tr>
+          <th>お問い合わせ内容</th>
+          <td><textarea name="contact-content" class="box" rows="4"></textarea></td>
+        </tr>
+        <tr>
+          <th></th>
+          <td class="submit" name="submit"><input type="submit" value="送信"
+              name="submit-buttan" ></td>
+        </tr>
+      </table>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

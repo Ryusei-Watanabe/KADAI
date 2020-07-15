@@ -1,0 +1,28 @@
+
+body{
+  width: 100%;
+  background-image: url("../images/buck.jpg");
+}
+h1{
+  margin: 0 auto;
+  width:12rem;
+}
+h1:hover{
+  opacity:0.6;
+}
+table{
+  margin:0 auto;
+  height: 300px;
+  width: 500px;
+}
+.box{
+  width: 100%;
+}
+th{
+  text-align:center;
+  width:8rem;
+  padding-right: 20px
+}
+.table_form .submit{
+  text-align: center;
+}
